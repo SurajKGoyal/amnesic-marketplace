@@ -1,0 +1,19 @@
+{
+  "name": "amnesic",
+  "owner": {
+    "name": "Suraj Goyal",
+    "email": "sgoyal275@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "amnesic",
+      "source": "./plugins/amnesic",
+      "description": "Persistent semantic memory for SQL databases (PostgreSQL, MySQL, MSSQL, SQLite). The MCP server with the most ironic name in the registry — it remembers your schema, annotations, and FK relationships across every session so your AI doesn't have to relearn them.",
+      "homepage": "https://github.com/SurajKGoyal/amnesic",
+      "repository": "https://github.com/SurajKGoyal/amnesic",
+      "license": "MIT",
+      "category": "data",
+      "keywords": ["mcp", "sql", "database", "memory", "claude", "ai-tools", "postgres", "mysql", "mssql", "sqlite"]
+    }
+  ]
+}

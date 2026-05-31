@@ -1,0 +1,17 @@
+{
+  "name": "amnesic",
+  "description": "Persistent semantic memory for your SQL databases. Annotate a schema once; every future session sees those labels automatically.",
+  "version": "0.1.16",
+  "author": {
+    "name": "Suraj Goyal"
+  },
+  "homepage": "https://github.com/SurajKGoyal/amnesic",
+  "repository": "https://github.com/SurajKGoyal/amnesic",
+  "license": "MIT",
+  "keywords": ["mcp", "sql", "database", "memory", "claude", "ai-tools"],
+  "mcpServers": {
+    "amnesic": {
+      "command": "amnesic"
+    }
+  }
+}
