@@ -8,9 +8,12 @@ the MCP server that gives your AI persistent semantic memory of your SQL databas
 In Claude Code:
 
 ```
-/plugin marketplace add SurajKGoyal/amnesic-marketplace
+/plugin marketplace add https://github.com/SurajKGoyal/amnesic-marketplace
 /plugin install amnesic@amnesic
 ```
+
+> Use the full `https://` URL — the `owner/repo` shorthand clones over SSH and
+> fails if you don't have a GitHub SSH key set up.
 
 That wires `amnesic` as an MCP server inside Claude Code automatically — no
 hand-editing `~/.claude/mcp.json` required.
